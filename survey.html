@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title">Formularul de inscriere in Universitatea Transilvania din Brasov</h1>
+            <meta name="viewport" content="width=device-width initial-scale=1.0">
+            <p id="description">Completeaza acest formular pentru a te inscrie intr-una din facultatile din cadrul Universitatii Transilvania din Brasov</p>
+        </header>
+
+       
+        <form id="survey-form" action="post">
+         <fieldset id="f0">
+
+            
+            <fieldset id="f1">
+                
+            <label id="name-label" for="name"><strong>Nume</strong><input type="text" id="name" placeholder="Introdu-ti numele" required></label>
+            <label id="email-label" for="email"><strong>Email</strong><input type="email" id="email" placeholder="Introdu-ti adresa de mail" required></label>
+            <label id="number-label" for="age"><strong>Varsta</strong><input type="number" id="number" min="10" max="99" placeholder="Varsta" required></label>
+            <label id="file-label" for="file"><strong>Incarca o fotografie</strong><input type="file" id="file" required></label>
+            </fieldset>
+            
+            <fieldset id="f2">
+
+                <label id="income"><strong>Ce program doresti sa studiezi?</strong></label>
+                <label for="licenta"><input id="licenta" type="radio" name="program" value="licenta" checked>Licenta</label>
+                <label for="Master"><input id="master" type="radio" name="program" value="master">Master</label>
+                <label for="Doctorat"><input id="doctorat" type="radio" name="program" value="doctorat">Doctorat</label>
+                
+                <label id="aflat"><strong>Ce facultate iti doresti sa urmezi?</strong><select id="dropdown">
+    
+                    <option value="">(selecteaza una)</option>
+    
+                    <option value="1">Facultatea de Design de Mobilier si Inginerie a Lemnului</option>
+                    <option value="2">Facultatea de Design de Produs si Mediu</option>
+                    <option value="3">Facultatea de Inginerie electrică și știința calculatoarelor</option>
+                    <option value="4">Facultatea de Inginerie mecanică</option>
+                    <option value="5">Facultatea de Inginerie tehnologică și management industrial</option>
+                    <option value="6">Facultatea de Silvicultură și exploatări forestiere</option>
+                    <option value="7">Facultatea de Știinta și ingineria materialelor</option>
+                    <option value="8">Facultatea de Drept</option>
+                    <option value="9">Facultatea de Educație fizică și sporturi montane</option>
+                    <option value="10">Facultatea de Științe economice și administrarea afacerilor</option>
+                    <option value="11">Facultatea de Psihologie și științele educației</option>
+                    <option value="12">Facultatea de Litere</option>
+                    <option value="13">Facultatea de Matematică și informatică</option>
+                    <option value="14">Facultatea de Sociologie și comunicare</option>
+                    <option value="15">Facultatea de Medicină</option>
+                    <option value="16">Facultatea de Muzică</option>
+                    <option value="17">Facultatea de Construcții</option>
+                    <option value="18">Facultatea de Alimentație și turism</option>
+    
+                    </select>
+                </label>
+
+            </fieldset>
+
+            <fieldset id="f3">
+                
+            <label id="ce vrei"><strong>Cum ai auzit de UNITBV?</strong></label>
+            <label for="prof"><input id="prof" type="checkbox" name="gain" value="profesor">Profesorii de la liceu</label>
+            <label for="social"><input id="social" type="checkbox" name="gain" value="social">De pe o retea de socializare</label>
+            <label for="fam"><input id="fam" type="checkbox" name="gain" value="relatives">Parinti/rude</label>
+            <label for="inet"><input id="inet" type="checkbox" name="gain" value="net">Am cautat pe net si am dat de site-ul universitatii</label>
+
+            <label id="comm"><strong>Mai ai ceva de adaugat?</strong></label>
+                <textarea placeholder="Scrie aici orice adaugire..."></textarea>
+
+            </fieldset>
+            
+            <input type="submit" id="submit">
+        </form>
+    </fieldset>
+    </body>
+</html>

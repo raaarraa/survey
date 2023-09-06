@@ -1,0 +1,76 @@
+form {
+    width: 60dvw;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    padding-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+header {
+    background-color: black;
+}
+
+h1, p {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: black;
+    margin-left:30%;
+    margin-right: 30%;   
+}
+
+label {
+    display: block;
+    margin: 1em auto;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    width: 200px;;
+    height: 2em;
+    font-size: 20px;
+    background-color: rgb(15, 150, 15);
+    border-radius: 5px;
+    color: white;
+    border: 3.5px solid rgb(13, 126, 13);
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+body {
+    background-image: url("https://www.unitbv.ro/images/stiri_si_evenimente/2020/evenimente/02/1_Martie_pentru_site.jpg");
+    
+}
+
+#name, #email, #number, #dropdown, #file {
+    display: block;
+    align-self: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 100%;
+}
+
+#file {
+    display: block;
+}
+
+#f1, #f2, #f3 {
+    border: none;
+    padding-bottom: 0px;
+}
+
+#f0 {
+    border: 5px solid #000000;
+    border-style:dashed;
+    background-color: white;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 8vh;
+    border-radius: 5px;
+}
